@@ -1,8 +1,18 @@
 require('rose-pine').setup({
-    disable_background = true
+    variant = 'main',
+    disable_background = true,
+    disable_italics = true,
 })
 
-function ColorMyPencils(color) 
+
+require("everforest").setup({
+  background = "soft",
+  transparent_background_level = 2,
+  italics = false,
+  disable_italic_comments = false,
+})
+
+function ColorMyPencils(color)
 	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 

@@ -23,6 +23,7 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
+-- this to `true` to make them _not_ italic!
 
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 

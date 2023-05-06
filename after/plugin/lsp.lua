@@ -5,6 +5,8 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
+  'phpactor',
+
 })
 
 -- Fix Undefined global 'vim'
